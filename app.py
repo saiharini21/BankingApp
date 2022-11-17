@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def bot():
-    return render_template('main-sample.html')
+    return render_template('index.html')
 
 
 @app.route('/faq')
